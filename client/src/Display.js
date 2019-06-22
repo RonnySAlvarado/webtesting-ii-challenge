@@ -4,8 +4,7 @@ function Display(props) {
   return (
     <>
       <h2>Balls: {props.balls}</h2>
-      <h2>Strikes:</h2>
-      {props.strikes}
+      <h2>Strikes: {props.strikes}</h2>
     </>
   );
 }
